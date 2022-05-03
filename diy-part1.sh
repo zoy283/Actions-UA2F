@@ -16,8 +16,8 @@
 # Add a feed source
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
-git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
+# git clone https://github.com/CHN-beta/rkp-ipid package/rkp-ipid
 git clone https://github.com/Zxilly/UA2F package/UA2F
-git clone https://github.com/jerrykuku/lua-maxminddb.git  package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git  package/luci-app-vssr
-git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git  package/luci-app-unblockneteasemusic
+# git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+# git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+git clone https://github.com/UnblockNeteaseMusic/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
